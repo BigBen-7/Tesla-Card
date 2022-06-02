@@ -1,0 +1,161 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(/tesimg/0x0-ModelX_10.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 70px;
+}
+.card {
+  background: white;
+  width: 450px;
+  height: 600px;
+  margin: 20px;
+  border-radius: 50px;
+  box-shadow: 15px 10px 0.6 red;
+  transition: 0.3s;
+  box-shadow: 10px 10px 5px;
+}
+.card:hover:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+.car-image {
+  height: 70vh;
+  border-radius: 50px;
+  background-size: cover;
+  background-position: center;
+  box-shadow: 15px 15px 8px rgba(23, 16, 30, 0.7);
+}
+.car1 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
+    url(/tesimg/0x0-ModelX_18.jpg);
+}
+.car1 > h1 {
+  color: whitesmoke;
+  font-size: 2rem;
+  font-weight: 700;
+}
+.car1 h5 {
+  text-align: center;
+  color: white;
+  font-size: 1em;
+  font-weight: lighter;
+  letter-spacing: 2px;
+  padding-top: 5px;
+}
+.car1 ul li p {
+  color: lightgrey;
+  font-weight: bolder;
+  padding-top: 390px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.tes {
+  color: grey;
+  font-size: 5rem;
+  letter-spacing: 3rem;
+  font-weight: bolder;
+  transition: 0.3s ease-in-out;
+  text-decoration: line-through overline underline;
+}
+.tes:hover {
+  color: whitesmoke;
+  cursor: pointer;
+}
+.card a {
+  background-color: black;
+  color: white;
+  padding: 15px 20px;
+  display: block;
+  text-align: center;
+  margin: 30px 150px;
+  border-radius: 50px;
+  background: transparent;
+  border: 1px solid black;
+  text-decoration: none;
+  transition: 0.3s ease-in-out;
+  font-size: 1.2em;
+  font-weight: bold;
+  font-family: Times, serif;
+}
+.card a:hover {
+  transform: scale(1.2);
+  color: tomato;
+}
+.car2 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
+    url(/tesimg/0x0-Cybertruck_12.jpg);
+}
+.car2 > h1 {
+  color: whitesmoke;
+  font-size: 2rem;
+  font-weight: 700;
+  letter-spacing: 0.5rem;
+}
+.car2 p {
+  color: white;
+  font-weight: bolder;
+  padding-top: 390px;
+  text-align: center;
+  font-size: 1.2em;
+}
+.car3 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
+    url(/tesimg/0x0-Roadster_07.jpg);
+}
+.car3 > h1 {
+  color: whitesmoke;
+  font-size: 2rem;
+  font-weight: 700;
+  letter-spacing: 0.5rem;
+}
+
+.car3 ul li p {
+  color: white;
+  font-weight: bolder;
+  padding-top: 350px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.car3 p {
+  color: white;
+  font-weight: bolder;
+  text-align: center;
+  font-size: 1.2em;
+}
+
+h1 {
+  text-align: center;
+  color: rgb(53, 51, 51);
+  font-weight: bolder;
+  padding-top: 30px;
+  text-transform: uppercase;
+}
+
+.p {
+  text-align: center;
+  color: white;
+  color: black;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.p {
+  color: rgb(223, 27, 9);
+  font-weight: bold;
+}
+ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-between;
+}
